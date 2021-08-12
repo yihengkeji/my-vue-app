@@ -1,25 +1,25 @@
 <!--
  * @Author: Snow
  * @Date: 2021-08-12 23:21:55
- * @LastEditTime: 2021-08-12 23:24:09
+ * @LastEditTime: 2021-08-12 23:31:41
  * @LastEditors: Snow
  * @Description: 
  * @FilePath: /my-vue-app/src/App.vue
 -->
 <template>
   <div id="app">
+    Hello World
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App123123"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld
   }
 }
 </script>
